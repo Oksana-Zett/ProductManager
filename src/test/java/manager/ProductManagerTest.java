@@ -58,8 +58,7 @@ class ProductManagerTest {
     @Test
     void shouldSearchByNull() {
 
-       // manager.add(smartphone1);
-      //  manager.add(book1);
+
         manager.add(table);
 
         Product [] expected = new Product[] {};
